@@ -1,1 +1,20 @@
 <h1>Hello my World!</h1>
+<div id="hello_world"></div>
+<button id="click_me_button">Click me</button>
+
+<ul id="hello_world_list">
+  <li>Hello World start</li>
+</ul>
+
+<script type="text/javascript">
+  const clickMeButtonE1 = document.getElementById("click_me_button");
+  const helloWorldListE1 = document.getElementById("hello_world_list");
+
+  var addHelloWorldToList = function (event){
+    var itemE1 = document.createElement("li");
+    itemE1.innerHTML = "Hello World!";
+    helloWorldListE1.appendChild(itemE1);
+  }
+
+  clickMeButtonE1.addEventListener("click", addHelloWorldToList);
+</script>
