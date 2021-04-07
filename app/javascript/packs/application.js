@@ -9,6 +9,12 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 require("controllers")
 
+const ReactRailsUJS = require('reacct_ujs');
+window.document.onload = function(e) {
+  ReactRailsUJS.mountComponents();
+}
+global.ReactQuotesApp = require('../react_quotes_app').default;
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

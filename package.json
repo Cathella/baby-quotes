@@ -6,13 +6,26 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.2.1",
+    "@reduxjs/toolkit": "^1.5.1",
+    "axios": "^0.21.1",
     "cable_ready": "^4.5.0",
+    "immutable": "^4.0.0-rc.12",
+    "normalizr": "^3.6.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "react_ujs": "^2.6.1",
+    "redux": "^4.0.5",
+    "redux-immutable": "^4.0.0",
+    "redux-thunk": "^2.3.0",
     "stimulus": "^2.0.0",
     "stimulus_reflex": "^3.4.1",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@babel/preset-react": "^7.13.13",
     "webpack-dev-server": "^3.11.2"
   }
 }
