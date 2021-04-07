@@ -1,4 +1,8 @@
-<li>
+<li 
+  id="quote-<%= quote.id %>"
+  data-reflex="click->QuotesReflex#destroy"
+  data-id="<%= quote.id %>"
+>
   "<%= quote.content %>"
   - "<%= quote.author_name %>"
 </li>
